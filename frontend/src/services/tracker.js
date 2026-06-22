@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/events/track";
+const API_URL = "https://analytics-backend-8jae.onrender.com/api/events/track";
 
 const getSessionId = () => {
   let sessionId = localStorage.getItem("sessionId");
